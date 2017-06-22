@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiVsixInstaller", "RestApi\RestApiVsixInstaller.csproj", "{A372F99B-747F-4612-A3AF-509973DA362D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestTemplateWizard", "RestTemplateWizard\RestTemplateWizard.csproj", "{D67905F4-360D-4101-95A3-A76CA9616276}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestTemplateProjects", "RestTemplateProjects", "{F2648124-37AA-4789-9C43-1775816E800F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI", "RestTemplateProjects\RestAPI\RestAPI.csproj", "{89A1C03B-2DA1-4907-8650-82142824A2DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI.Core", "RestTemplateProjects\RestAPI.Core\RestAPI.Core.csproj", "{190B1AAC-8A0A-4CD1-8EDA-95BA425DC982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI.Repository", "RestTemplateProjects\RestAPI.Repository\RestAPI.Repository.csproj", "{AC182A92-A14C-49F1-9756-536B5895C245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI.Service", "RestTemplateProjects\RestAPI.Service\RestAPI.Service.csproj", "{092A8675-E638-4FD2-BD49-16301EDF3705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI.Tests", "RestTemplateProjects\RestAPI.Tests\RestAPI.Tests.csproj", "{7FC77FA7-A582-4CBE-BF85-88B210939DDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A372F99B-747F-4612-A3AF-509973DA362D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A372F99B-747F-4612-A3AF-509973DA362D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A372F99B-747F-4612-A3AF-509973DA362D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A372F99B-747F-4612-A3AF-509973DA362D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67905F4-360D-4101-95A3-A76CA9616276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67905F4-360D-4101-95A3-A76CA9616276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67905F4-360D-4101-95A3-A76CA9616276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67905F4-360D-4101-95A3-A76CA9616276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A1C03B-2DA1-4907-8650-82142824A2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A1C03B-2DA1-4907-8650-82142824A2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A1C03B-2DA1-4907-8650-82142824A2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A1C03B-2DA1-4907-8650-82142824A2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190B1AAC-8A0A-4CD1-8EDA-95BA425DC982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190B1AAC-8A0A-4CD1-8EDA-95BA425DC982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190B1AAC-8A0A-4CD1-8EDA-95BA425DC982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190B1AAC-8A0A-4CD1-8EDA-95BA425DC982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC182A92-A14C-49F1-9756-536B5895C245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC182A92-A14C-49F1-9756-536B5895C245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC182A92-A14C-49F1-9756-536B5895C245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC182A92-A14C-49F1-9756-536B5895C245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092A8675-E638-4FD2-BD49-16301EDF3705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092A8675-E638-4FD2-BD49-16301EDF3705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092A8675-E638-4FD2-BD49-16301EDF3705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092A8675-E638-4FD2-BD49-16301EDF3705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC77FA7-A582-4CBE-BF85-88B210939DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC77FA7-A582-4CBE-BF85-88B210939DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC77FA7-A582-4CBE-BF85-88B210939DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC77FA7-A582-4CBE-BF85-88B210939DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89A1C03B-2DA1-4907-8650-82142824A2DF} = {F2648124-37AA-4789-9C43-1775816E800F}
+		{190B1AAC-8A0A-4CD1-8EDA-95BA425DC982} = {F2648124-37AA-4789-9C43-1775816E800F}
+		{AC182A92-A14C-49F1-9756-536B5895C245} = {F2648124-37AA-4789-9C43-1775816E800F}
+		{092A8675-E638-4FD2-BD49-16301EDF3705} = {F2648124-37AA-4789-9C43-1775816E800F}
+		{7FC77FA7-A582-4CBE-BF85-88B210939DDF} = {F2648124-37AA-4789-9C43-1775816E800F}
+	EndGlobalSection
+EndGlobal

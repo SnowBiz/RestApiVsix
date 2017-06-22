@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="RestApi.Microsoft.07ee5c5d-ab47-4faf-b57a-b5c151a74584" Version="1.0" Language="en-US" Publisher="Microsoft" />
+    <DisplayName>RestApi</DisplayName>
+    <Description>Empty VSIX Project.</Description>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:VsixSubPath="ProjectTemplates/WebApi" Path="|RestTemplateWizard|" AssemblyName="|RestTemplateWizard;AssemblyName|" />
+  </Assets>
+</PackageManifest>
