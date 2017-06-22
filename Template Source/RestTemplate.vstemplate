@@ -1,0 +1,34 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+  <TemplateData>
+    <Name>Custom ASP.NET WEB API Starter Project</Name>
+    <Description>ASP.Net WEB API Starter Project, Includes separate projects for Core, Repository, Service and Testing Layers.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+     <SolutionFolder Name="$safeprojectname$">  
+      <ProjectTemplateLink ProjectName="$safeprojectname$">
+        Api\Api.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Core">
+        Core\Core.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Repository">
+        Repository\Repository.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Services">
+        Services\Services.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Test">
+        Test\Test.vstemplate
+      </ProjectTemplateLink>
+     </SolutionFolder>  
+    </ProjectCollection>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>RestTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c9a76f51a8a9555f</Assembly>
+    <FullClassName>RestTemplateWizard.RootWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
