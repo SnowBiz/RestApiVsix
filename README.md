@@ -1,15 +1,11 @@
 # RestApi
 
 <!-- Replace this badge with your own-->
-[![Build status](https://ci.appveyor.com/api/projects/status/hv6uyc059rqbc6fj?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilitytools)
-
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
-or get the [CI build](http://vsixgallery.com/extension/RestApi.Microsoft.07ee5c5d-ab47-4faf-b57a-b5c151a74584/).
+[![Build status](https://ci.appveyor.com/api/projects/status/ijmh81fe2gi6hk2f?svg=true)](https://ci.appveyor.com/project/SnowBiz/restapivsix)
 
 ---------------------------------------
 
-Empty VSIX Project.
+RestApi VSIX Project.
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
