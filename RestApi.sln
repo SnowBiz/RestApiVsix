@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestTemplateWizard", "RestTemplateWizard\RestTemplateWizard.csproj", "{D67905F4-360D-4101-95A3-A76CA9616276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiVsixInstaller", "RestApiVsixInstaller\RestApiVsixInstaller.csproj", "{A372F99B-747F-4612-A3AF-509973DA362D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiVsixInstaller", "RestApi\RestApiVsixInstaller.csproj", "{A372F99B-747F-4612-A3AF-509973DA362D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
