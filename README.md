@@ -9,20 +9,18 @@ RestApi VSIX Project.
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
-## Features
+## Project Template Solution
 
-- Feature 1
-- Feature 2
-  - Sub feature
+[RestApi Repo](https://github.com/SnowBiz/RestAPI)
 
-### Feature 1
-Describe feature 1. Add screenshots/code samples etc.
+### Vsix Installer
+This is what manages building out the vsix extension to install the project template.
 
-### Feature 2
-Describe feature 2. Add screenshots/code samples etc.
+### Wizard
+The Wizard solution is what implements the IWizard interface to tie into the project creation wizard in Visual Studio.
 
-#### Sub feature
-Describe sub feature. Add screenshots/code samples etc.
+#### Future Plans
+Establish a way to include [RestApi Repo](https://github.com/SnowBiz/RestAPI) in this repo and then on build use pre & post build events in combination with custom powershell scripts to create the zip file needed for the vsix installer. This will also include establishing a way to generate the .vstemplate files in a more dynamic process.
 
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)
